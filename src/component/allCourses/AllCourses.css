@@ -1,0 +1,207 @@
+.allmain{
+    height: 16vw;
+    width: 90%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+}
+.imageAll{
+    height: 16vw;
+    width: 16vw;
+}
+.allrating{
+    display: flex;
+            justify-content:flex-end;
+            position: absolute;
+            right:6vw;
+}
+.allspan{
+    /* z-index: -1; */
+    margin-right: 20px;
+}
+.allbox{
+    display: flex;
+    
+    flex-direction: row;
+
+}
+.alldetails{
+    margin-left: 3vw;
+    
+    font-size: 1.16vw
+
+}
+.allview{
+    color: blue;
+    text-decoration: none;
+}
+.radio{
+    margin-left: 5vw;
+}
+.form-check-input{
+    margin: 10px;
+}
+
+@media screen and (max-width: 930px) {
+  .form-check-label{
+    font-size: 1.5vw;
+  }
+  .allmain{
+    font-size: 1.5vw
+  }
+  .alldetails{
+    font-size: 1.25vw !important;
+  }
+}
+
+@media screen and (max-width: 840px) {
+    .alldetails{
+        font-size: 1.40vw !important;
+      }
+      .allmain{
+        height: 20vw !important;
+        
+    }
+    .imageAll{
+        height: 20vw;
+        width: 16vw;
+    }
+}
+@media screen and (max-width: 740px) {
+    .alldetails{
+        font-size: 1.60vw !important;
+      }
+      .allmain{
+        height: 23vw !important;
+        
+    }
+    .imageAll{
+        height: 23vw;
+        width: 23vw !important;
+    }
+}
+@media screen and (max-width: 659px) {
+    .alldetails{
+        font-size: 1.80vw !important;
+      }
+      .allmain{
+        height: 25vw !important;
+        
+    }
+    .imageAll{
+        height: 25vw;
+        width: 25vw !important;
+    }
+    .form-check-label{
+        font-size: 1.8vw;
+      }
+      .allmain{
+        font-size: 1.8vw
+      }
+}
+@media screen and (max-width: 584px) {
+    .alldetails{
+        font-size: 2vw !important;
+      }
+      .allmain{
+        height: 28vw !important;
+        
+    }
+    .imageAll{
+        height: 28vw;
+        width: 25vw !important;
+    }
+    .form-check-label{
+        font-size: 2vw;
+      }
+      .allmain{
+        font-size: 2vw
+      }
+}
+@media screen and (max-width: 524px) {
+    .alldetails{
+        font-size: 2.4vw !important;
+      }
+      .allmain{
+        height: 34vw !important;
+        
+    }
+    .imageAll{
+        height: 34vw;
+        width: 28vw !important;
+    }
+    .form-check-label{
+        font-size: 2.2vw;
+      }
+      .allmain{
+        font-size: 2.2vw
+      }
+}
+@media screen and (max-width: 460px) {
+    .alldetails{
+        font-size: 2.8vw !important; 
+      }
+      .allmain{
+        height: 38vw !important;
+        
+    }
+    .imageAll{
+        height: 38vw;
+        width: 28vw !important;
+    }
+    .form-check-label{
+        font-size: 2.4vw;
+      }
+      .allmain{
+        font-size: 2.4vw
+      }
+}
+@media screen and (max-width: 303px) {
+    .alldetails{
+        font-size: 3.4vw !important; 
+      }
+      .allmain{
+        height: 47vw !important;
+        
+    }
+    .imageAll{
+        height: 47vw;
+        width: 32vw !important;
+    }
+    .form-check-label{
+        font-size: 3vw;
+      }
+      .allmain{
+        font-size: 3vw
+      }
+}
+@media screen and (max-width: 245px) {
+    .alldetails{
+        font-size: 3.8vw !important; 
+      }
+      .allmain{
+        height: 50vw !important;
+        
+    }
+    .imageAll{
+        height: 50vw;
+        width: 32vw !important;
+    }
+    .form-check-label{
+        font-size: 3.5vw;
+      }
+      .allmain{
+        font-size: 3.5vw
+      }
+}
+@media screen and (max-width: 224px) {
+  .radio{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .form-check-label{
+    display: inline-block;
+		text-align: center;
+  }
+}

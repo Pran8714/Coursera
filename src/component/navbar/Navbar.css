@@ -1,0 +1,156 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  font-size: 1.1rem;
+
+  background-color: rgb(141, 137, 137);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  position: sticky;
+
+  top: 0;
+
+  border-bottom: 3px solid white;
+}
+.navName {
+  margin-left: 3vw;
+}
+
+nav ul {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  position: relative;
+  list-style: none;
+  float: left;
+  margin: 5px;
+}
+
+.nav-btn {
+  display: none;
+  opacity: 0;
+}
+
+.navPages {
+  font-size: 1.1rem;
+
+  padding: 20px 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formSearch {
+  height: 30px;
+  width: 30vw;
+}
+.btnSearch {
+  height: 30px;
+  width: 7vw;
+  margin: 3px;
+  margin-right: 10px;
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 848px) {
+  .btnSearch {
+    font-size: 1.5vw !important;
+  }
+}
+@media screen and (max-width: 699px) {
+  .btnSearch {
+    font-size: 1.6vw !important;
+  }
+}
+@media screen and (max-width: 656px) {
+  .btnSearch {
+    font-size: 1.8vw !important;
+    width: 8vw;
+  }
+}
+@media screen and (max-width: 641px) {
+  .btnSearch {
+    font-size: 1.8vw !important;
+    width: 8vw;
+  }
+  .navPages {
+    display: none;
+  }
+
+  .nav-btn {
+    display: block;
+    opacity: 1;
+    margin-right: 5px;
+  }
+  .navPages {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1.5rem;
+    background-color: grey;
+    transition: 0.01s;
+    transform: translateY(-100vh);
+    z-index: 99;
+  }
+  .navUl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .responsive-nav {
+    transform: none;
+  }
+  .nab-close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 524px) {
+  .btnSearch {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 475px) {
+  ul {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .btnSearch {
+    font-size: 2vw !important;
+    width: 10vw;
+  }
+}
+@media screen and (max-width: 303px) {
+  .btnSearch {
+    font-size: 2.4vw !important;
+    width: 14vw;
+  }
+}
+@media screen and (max-width: 208px) {
+  .formSearch {
+    font-size: 5vw;
+  }
+  .btnSearch {
+    font-size: 2.8vw !important;
+    width: 18vw;
+  }
+}

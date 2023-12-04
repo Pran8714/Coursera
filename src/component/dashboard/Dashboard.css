@@ -1,0 +1,51 @@
+.allmain {
+  height: 16vw;
+  width: 90%;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 10px;
+}
+.imageAll {
+  width: 16vw;
+}
+.allrating {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 6vw;
+}
+.allspan {
+  z-index: 1;
+}
+.allbox {
+  display: flex;
+
+  flex-direction: row;
+}
+.alldetails {
+  margin-left: 3vw;
+
+  font-size: 1.16vw;
+}
+.progressbar {
+  height: 10px;
+  width: 100px;
+
+  border: 1px solid black;
+}
+
+.check {
+  margin-right: 2vw;
+}
+@media screen and (max-width: 584px) {
+  .alldetails {
+    margin-top: 3vw;
+  }
+}
+@media screen and (max-width: 303px) {
+  .allmain {
+    font-size: 2.3vw;
+  }
+}
+@media screen and (max-width: 205px) {
+}
